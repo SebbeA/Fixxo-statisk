@@ -1,0 +1,80 @@
+/* import and root */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+:root {
+    --color-theme: #FF7373;
+    --color-dark-0: #222529;
+    --color-dark-1: #23262A;
+    --color-white: #FFFFFF;
+    --color-grey-0: #F5F5F5;
+    --color-grey-1: #BBBBBB;
+    --color-grey-3: #616365;
+
+    --font-poppins: 'Poppins', 'sans-serif';
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semiBold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extraBold: 800;
+    --font-size-13: 0.813rem;
+    --font-size-14: 0.875rem;
+    --font-size-16: 1rem;
+    --font-size-20: 1.25rem;
+    --font-size-24: 1.5rem;
+    --font-size-35: 2.188rem;
+    --font-size-45: 2.813rem;
+    --font-size-65: 4.063rem;
+}
+
+/* General */
+
+body {
+    font-family: var(--font-poppins);
+}
+
+.site-margin {
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+
+.button-theme {
+    position: relative;
+    text-align: center;
+    padding: 1rem 3rem;
+    border: none;
+    font-size: 0.8rem;
+    transition: 0.3s ease-in-out;
+    background-color: var(--color-white);
+}
+    .button-theme::before {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-right: 3px solid var(--color-white);
+        border-bottom: 3px solid var(--color-white);
+        right: 8px;
+        bottom: 8px;
+        transition: 0.5s linear;
+    }
+    .button-theme::after {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-top: 3px solid var(--color-white);
+        border-left: 3px solid var(--color-white);
+        top: 8px;
+        left: 8px;
+        transition: 0.5s linear;
+    }
+        .button-theme:hover::before {
+            height: calc(100% - 16px);
+            width: calc(100% - 16px);
+        }
+        .button-theme:hover::after {
+            height: calc(100% - 16px);
+            width: calc(100% - 16px);
+        }

@@ -220,10 +220,70 @@ body {
         align-items: center;
     }
         .sale .container .winter {
-            
+            position: relative;
         }
+            .sale .container .winter .clearance {
+                position: absolute;
+                left: 40px;
+                bottom: 350px;
+                font-weight: var(--font-weight-bold);
+            }
+            .sale .container .winter .off {
+                position: absolute;
+                left: 40px;
+                bottom: 310px;
+                font-weight: var(--font-weight-bold);
+            }
+            .sale .container .winter p {
+                position: absolute;
+                left: 40px;
+                bottom: 160px;
+                text-align: start;
+                width: 400px;
+            }
+            .sale .container .winter .button-theme {
+                position: absolute;
+                left: 40px;
+                bottom: 100px;
+                background-color: var(--color-black);
+                color: var(--color-white);
+                font-weight: var(--font-weight-bold);
+                transition: 0.3s ease-in-out;
+            }
+                .sale .container .winter .button-theme:hover {
+                    background-color: var(--color-theme);
+                }
 
-        /* fortsätt ovanför efter cards och  */
+        .sale .container .new-arrivals {
+            position: relative;
+        }
+            .sale .container .new-arrivals .new {
+                position: absolute;
+                left: 40px;
+                bottom: 230px;
+                font-weight: var(--font-weight-bold);
+            }
+            .sale .container .new-arrivals .arrivals {
+                position: absolute;
+                left: 40px;
+                bottom: 180px;
+                font-weight: var(--font-weight-bold);
+            }
+            .sale .container .new-arrivals .button-theme {
+                position: absolute;
+                left: 40px;
+                bottom: 100px;
+                background-color: var(--color-black);
+                color: var(--color-white);
+                font-weight: var(--font-weight-bold);
+                transition: 0.3s ease-in-out;
+            }
+                .sale .container .new-arrivals .button-theme:hover {
+                    background-color: var(--color-theme);
+                }
+            
+            
+
 
         /* Featured products */           
 
@@ -317,19 +377,22 @@ h5 strong {
             }
 
     /* Pamela Reif and Let be conscious */
-
-.container {
-    margin-top: 3rem;
+    
+.top-picks {
+    padding-top: 3rem;
+}
+.top-picks .container {
+    /* margin-top: 3rem; */
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
 }
-    .container .pamela-reif {
+    .top-picks .container .pamela-reif {
         position: relative;
         align-items: center;
     }
-        .container .pamela-reif .pamela {
+        .top-picks .container .pamela-reif .pamela {
             position: absolute;
             right: 40px;
             top: 120px;
@@ -337,7 +400,7 @@ h5 strong {
             font-size: var(--font-size-45);
             color: white;
         }
-        .container .pamela-reif .picks {
+        .top-picks .container .pamela-reif .picks {
             position: absolute;
             right: 132px;
             top: 170px;
@@ -345,7 +408,7 @@ h5 strong {
             font-size: var(--font-size-45);
             color: white;
         }
-        .container .pamela-reif .button-theme {
+        .top-picks .container .pamela-reif .button-theme {
             position: absolute;
             right: 180px;
             top: 250px;
@@ -354,7 +417,7 @@ h5 strong {
             font-weight: var(--font-weight-bold);
             transition: 0.3s ease-in-out;
         }
-            .container .pamela-reif .button-theme:hover {
+            .top-picks .container .pamela-reif .button-theme:hover {
                 background-color: #FF7373;
             }
 
@@ -388,3 +451,138 @@ h5 strong {
             .container .conscious .button-theme-white:hover {
                 background-color: #FF7373;
             }
+
+            /* Our Speciality */
+
+.speciality {
+    padding-top: 3rem;
+    margin: 0px 105px 0px 105px;
+}
+    .speciality .site-margin {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+        background-color: var(--color-grey-1);
+        margin: 40px 110px 40px 110px;
+        height: 400px;
+        position: relative;
+    }
+    .speciality .site-margin .our {
+        position: absolute;
+        font-size: var(--font-size-20);
+        font-weight: var(--font-weight-bold);
+        top: 55px;
+        left: 762px;
+    }
+        .speciality .site-margin .track {
+            position: relative;
+            height: 232px;
+            width: 490px;
+            margin-top: 2rem;
+            background-color: var(--color-grey-2);
+        }
+            .speciality .site-margin .track .white-1 {
+                width: 245px;
+                height: 232px;
+                background-color: var(--color-white);
+                position: relative;
+            }
+                .speciality .site-margin .track .white-1 h1 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: var(--font-size-20);
+                    font-weight: var(--font-weight-semiBold);
+                    padding-top: 80px;
+                }
+                .speciality .site-margin .track .white-1 a {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: var(--font-size-16);
+                    font-weight: var(--font-weight-semiBold);
+                    transition: 0.3s ease-in-out;
+                    color: var(--color-black);
+                    padding-top: 30px;
+                    /* fixa chevron */
+                }
+                    .speciality .site-margin .track .white-1 a:hover {
+                        color: var(--color-theme);
+                        text-decoration: underline var(--color-theme);
+                    }
+
+        .speciality .site-margin .return {
+            position: relative;
+            height: 232px;
+            width: 490px;
+            margin-top: 2rem;
+            background-color: var(--color-grey-2);
+        }
+            .speciality .site-margin .return .white-2 {
+                width: 245px;
+                height: 232px;
+                background-color: var(--color-white);
+                position: relative;
+            }
+                .speciality .site-margin .return .white-2 h1 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: var(--font-size-20);
+                    font-weight: var(--font-weight-semiBold);
+                    padding-top: 80px;
+                }
+                .speciality .site-margin .return .white-2 a {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: var(--font-size-16);
+                    font-weight: var(--font-weight-semiBold);
+                    transition: 0.3s ease-in-out;
+                    color: var(--color-black);
+                    padding-top: 25px;
+                    /* fixa chevron */
+                }
+                    .speciality .site-margin .return .white-2 a:hover {
+                        color: var(--color-theme);
+                        text-decoration: underline var(--color-theme);
+                    }
+
+        .speciality .site-margin .request {
+            position: relative;
+            height: 232px;
+            width: 490px;
+            margin-top: 2rem;
+            background-color: var(--color-grey-2);
+        }
+            .speciality .site-margin .request .white-3 {
+                width: 245px;
+                height: 232px;
+                background-color: var(--color-white);
+                position: relative;
+            }
+                .speciality .site-margin .request .white-3 h1 {
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    font-size: var(--font-size-20);
+                    font-weight: var(--font-weight-semiBold);
+                    padding-top: 68px;
+                }
+                .speciality .site-margin .request .white-3 a {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: var(--font-size-16);
+                    font-weight: var(--font-weight-semiBold);
+                    transition: 0.3s ease-in-out;
+                    color: var(--color-black);
+                    padding-top: 15px;
+                    /* fixa chevron */
+                }
+                    .speciality .site-margin .request .white-3 a:hover {
+                        color: var(--color-theme);
+                        text-decoration: underline var(--color-theme);
+                    }
+                

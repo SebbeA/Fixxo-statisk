@@ -594,6 +594,7 @@ h5 strong {
 
 
  /* Contact page starts here */
+ /* Same header as index.html */
 
 .header-contact {
 background-color: var(--color-white);
@@ -635,6 +636,8 @@ background-color: var(--color-white);
         list-style: none;
     }
 
+/* contact above img */
+
 .contact {
     margin-top: 3rem;
 }
@@ -656,3 +659,7 @@ background-color: var(--color-white);
                 margin-right: 2px;
                 font-size: var(--font-size-16);
             }
+
+    .contact img {
+        margin-top: 2.5rem;
+    }

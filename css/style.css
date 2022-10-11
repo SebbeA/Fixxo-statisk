@@ -173,6 +173,7 @@ body {
             .header .navbar-top .navbar-menu a {
                 text-decoration: none;
                 transition: 0.3s ease-in-out;
+                color: var(--color-black);
             }
                 .header .navbar-top .navbar-menu a:hover {
                     text-decoration: underline;
@@ -614,10 +615,12 @@ background-color: var(--color-white);
         gap: 1.6rem;
         font-weight: var(--font-weight-bold);
         transition: 0.3s ease-in-out;
+        letter-spacing: 1px;
     }
         .header-contact .navbar-top .navbar-menu a {
             text-decoration: none;
             transition: 0.3s ease-in-out;
+            color: var(--color-black);
         }
             .header-contact .navbar-top .navbar-menu a:hover {
                 text-decoration: underline;
@@ -631,3 +634,25 @@ background-color: var(--color-white);
         gap: 1.5rem;
         list-style: none;
     }
+
+.contact {
+    margin-top: 3rem;
+}
+    .contacts .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+        .contact .container a {
+            display: flex;
+            letter-spacing: 1px;
+            text-decoration: none;
+            color: var(--color-black);
+            padding-left: 4rem;
+            font-weight: var(--font-weight-medium);
+            font-size: var(--font-size-16);
+        }
+            .contact .container a i {
+                margin-right: 2px;
+                font-size: var(--font-size-16);
+            }

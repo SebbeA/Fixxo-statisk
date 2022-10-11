@@ -42,6 +42,22 @@
 
     <!-- form -->
 
+    <div class="container mt-4">
+        <p class="p-tag">Come in Contact with us</p>
+        <form onSubmit="onSubmit(event)" novalidate>
+            <div class="mb-2">
+                <label id="firstName-label" for="firstName" class="form-label">Your name</label>
+                <input id="firstName" type="text" class="form-control" onkeyup="validate(event)" required data-required-min="2">
+                <div id="firstName-error" class="text-danger"></div>
+            </div>
+            <div class="mb-2">
+                <label id="email-label" for="email" class="form-label">Your email</label>
+                <input id="email" type="email" class="form-control" onkeyup="validate(event)" required>
+                <div id="email-error" class="text-danger"></div>
+            </div>
+        </form>
+    </div>
+
 
 
     <!-- footer -->

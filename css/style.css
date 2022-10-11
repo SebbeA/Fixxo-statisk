@@ -673,6 +673,19 @@ background-color: var(--color-white);
 
     /* form */
 
+.p-tag {
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-16);
+}
+
+form {
+    display: flex;
+    justify-content: start;
+    gap: 2rem;
+}
+    form .mb-2 {
+        width: 100%;
+    }
 
 
 

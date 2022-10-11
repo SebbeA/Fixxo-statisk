@@ -43,6 +43,11 @@ body {
     padding-left: 5rem;
 }
 
+.site-margin-contact {
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
 /* Help from Oskar Nilsson with buttons and icon links */
 
 .button-theme {
@@ -637,7 +642,7 @@ background-color: var(--color-white);
         list-style: none;
     }
 
-/* contact above img */
+/* contact with img */
 
 .contact {
     margin-top: 3rem;
@@ -666,6 +671,7 @@ background-color: var(--color-white);
         width: 100%;
     }
 
+    /* form */
 
 
 
@@ -678,6 +684,7 @@ background-color: var(--color-white);
     margin-top: 3rem;
     background-color: var(--color-grey-2);
     height: 100px;
+    border: 1px solid var(--color-grey-3);
 }
     .contact-footer .footer-icons {
         display: flex;

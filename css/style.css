@@ -377,7 +377,7 @@ h5 strong {
             }
 
     /* Pamela Reif and Let be conscious */
-    
+
 .top-picks {
     padding-top: 3rem;
 }
@@ -586,3 +586,48 @@ h5 strong {
                         text-decoration: underline var(--color-theme);
                     }
                 
+
+
+
+
+
+
+ /* Contact page starts here */
+
+.header-contact {
+background-color: var(--color-white);
+}
+.header-contact .navbar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+}
+    .header-contact .navbar-top h1 {
+        font-weight: var(--font-weight-bold);
+    }
+    .header-contact .navbar-top .navbar-menu {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1.6rem;
+        font-weight: var(--font-weight-bold);
+        transition: 0.3s ease-in-out;
+    }
+        .header-contact .navbar-top .navbar-menu a {
+            text-decoration: none;
+            transition: 0.3s ease-in-out;
+        }
+            .header-contact .navbar-top .navbar-menu a:hover {
+                text-decoration: underline;
+                color: var(--color-theme);
+                padding-top: 0.3rem;
+                scale: 1.2;
+            }
+
+    .header-contact .navbar-top .icons-navbar {
+        display: flex;
+        gap: 1.5rem;
+        list-style: none;
+    }
